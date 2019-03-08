@@ -28,6 +28,10 @@ class TabLink {
     
     // Call the select method on the item associated with this link
     this.tabItem.select();
+
+    this.element.classList.toggle('animated');
+    this.element.classList.toggle('jackInTheBox');
+
   }
 }
 
